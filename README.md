@@ -6,7 +6,7 @@
 
 ## Description
 
-_A webpage to recommend track path in programming for the users._
+_A webpage to recommend track path in web developing for the users. It is using a Bootstrap form to catch data from user and analyze it with Javascript and JQuery methods to find the user's approaches in web developing based on his/her answers. _
 
 ## Setup/Installation Requirements
 
@@ -20,6 +20,8 @@ _A webpage to recommend track path in programming for the users._
 _Contact Kaveh Saleminejad - lcaveh@gmail.com._
 
 ## GitHub page's links
+
+https://lcaveh.github.io/track-suggester/index.html
 
 ## Technologies Used
 
