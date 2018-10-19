@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+are you intrested in back-end developement?
+Do you prefer to work with bigger companies?
+Do you prefer to work with startups and smaller companies?
+do you like to create application for cellphones?
+do you like to work for government or maintain the security and stability?
+    <title>Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome! Let's register to vote!</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="name">What is your name?</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="type">Do you like back-end developement or front-end technologies?</label>
+            <select class="form-control" id="type">
+              <option value=0>Back-end</option>
+              <option value=1>Front-end</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="bigorsmall">Do you prefer to work with big companies or startups and small ones?</label>
+            <select class="form-control" id="bigorsmall">
+              <option value=0>Big Companies</option>
+              <option value=1>Small companies and startups</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="application">Do you like to create application for cellphones?</label>
+            <select class="form-control" id="application">
+              <option value=0>Yes</option>
+              <option value=1>No</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="security">are you inrested in maintaining the security and stability for governemt, organization, or brands?</label>
+            <select class="form-control" id="security">
+              <option value=0>Yes</option>
+              <option value=1>No</option>
+            </select>
+          </div>
+            <button type="submit" class="btn btn-primary">Click for vote</button>
+        </form>
+      </div>
+    </div><br>
+    <div class="container">
+      <div class="jumbotron">
+        <div class="story">
+          <h1>Dear <span class="name"></span>, result</h1>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
